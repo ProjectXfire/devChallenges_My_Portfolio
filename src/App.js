@@ -335,6 +335,7 @@ function App() {
     const page = indexPage(1);
     const data = certificates.slice(page.start, page.end);
     setPageData(data);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
