@@ -140,25 +140,29 @@ function App() {
       image: project8,
     },
     {
-      name: "E-Commerce",
+      name: "Buttons Styles",
       tags: ["#REACT"],
       description:
-        "In this project,  I have create a e-commerce page following of Angular course in Platzi." +
-        " This show a list of products provided by Platzi, you can select one to add in the card and" +
-        " you can see the list of products in the cart, the purchase is not implemented in this project." +
-        " The design was provided by Platzi.",
+        "This project show a list of buttons styles than you can select according to your needs." +
+        " It was build in react, using styled-components for the different types of buttons." +
+        " Styled-components help me a little more easier to change the style according to the attribute," +
+        " using props to validate each case." +
+        " For the icon I have use the library React-Icons, to use icons just put the correct name" +
+        " according to the documentation.",
       demo: "https://thirsty-rosalind-7092d5.netlify.app/",
       code: "https://github.com/ProjectXfire/devChallenges_My_Buttons_Styles",
       image: project9,
     },
     {
-      name: "E-Commerce",
+      name: "Inputs Styles",
       tags: ["#REACT"],
       description:
-        "In this project,  I have create a e-commerce page following of Angular course in Platzi." +
-        " This show a list of products provided by Platzi, you can select one to add in the card and" +
-        " you can see the list of products in the cart, the purchase is not implemented in this project." +
-        " The design was provided by Platzi.",
+        "This project show a list of inputs styles than you can select according to your needs." +
+        " It was build in react, using styled-components for the different types of inputs." +
+        " Styled-components help me a little more easier to change the style according to the attribute," +
+        " using props to validate each case." +
+        " For the icon I have use the library React-Icons, to use icons just put the correct name" +
+        " according to the documentation.",
       demo: "https://lucid-darwin-2328b7.netlify.app/",
       code: "https://github.com/ProjectXfire/devChallenges_My_Inputs_Styles",
       image: project10,
