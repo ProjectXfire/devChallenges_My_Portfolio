@@ -18,6 +18,8 @@ import project5 from "./images/project_5.jpg";
 import project6 from "./images/project_6.jpg";
 import project7 from "./images/project_7.jpg";
 import project8 from "./images/project_8.jpg";
+import project9 from "./images/project_9.jpg";
+import project10 from "./images/project_10.jpg";
 /*Hobbies*/
 import hobbie1 from "./images/hobbie_1.jpg";
 import hobbie2 from "./images/hobbie_2.jpg";
@@ -136,6 +138,30 @@ function App() {
       demo: "https://proyect-store-angular.web.app/ ",
       code: "https://github.com/ProjectXfire/platzi_project_angular",
       image: project8,
+    },
+    {
+      name: "E-Commerce",
+      tags: ["#REACT"],
+      description:
+        "In this project,  I have create a e-commerce page following of Angular course in Platzi." +
+        " This show a list of products provided by Platzi, you can select one to add in the card and" +
+        " you can see the list of products in the cart, the purchase is not implemented in this project." +
+        " The design was provided by Platzi.",
+      demo: "https://thirsty-rosalind-7092d5.netlify.app/",
+      code: "https://github.com/ProjectXfire/devChallenges_My_Buttons_Styles",
+      image: project9,
+    },
+    {
+      name: "E-Commerce",
+      tags: ["#REACT"],
+      description:
+        "In this project,  I have create a e-commerce page following of Angular course in Platzi." +
+        " This show a list of products provided by Platzi, you can select one to add in the card and" +
+        " you can see the list of products in the cart, the purchase is not implemented in this project." +
+        " The design was provided by Platzi.",
+      demo: "https://lucid-darwin-2328b7.netlify.app/",
+      code: "https://github.com/ProjectXfire/devChallenges_My_Inputs_Styles",
+      image: project10,
     },
   ];
 
