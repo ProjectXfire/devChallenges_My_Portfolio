@@ -24,6 +24,7 @@ import project11 from "./images/project_11.jpg";
 import project12 from "./images/project_12.jpg";
 import project13 from "./images/project_13.jpg";
 import project14 from "./images/project_14.jpg";
+import project15 from "./images/project_15.jpg";
 /*Hobbies*/
 import hobbie1 from "./images/hobbie_1.jpg";
 import hobbie2 from "./images/hobbie_2.jpg";
@@ -223,6 +224,18 @@ function App() {
       code: "https://github.com/ProjectXfire/devChallenges_Contry_Quiz",
       image: project14,
     },
+    {
+      name: "Weathers",
+      tags: ["#REACT", "#NEXTJS"],
+      description:
+        "This project show the weather, today and the forecast. When you load the page will ask you to" +
+        " accept activate your location, to show the weather of your city. You can search the weather of" +
+        " the cities provided by the API 'https://www.metaweather.com/api/'. You can change the degrees" +
+        " between celsius and fahrenheit. The styles was build using SASS and is responsive.",
+      demo: "https://nostalgic-goodall-52550e.netlify.app/",
+      code: "https://github.com/ProjectXfire/devChallenges_Weathers",
+      image: project15,
+    },
   ];
 
   const tags = [
@@ -248,6 +261,10 @@ function App() {
     },
     {
       name: "React",
+      active: false,
+    },
+    {
+      name: "NextJS",
       active: false,
     },
     {
