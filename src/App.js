@@ -20,6 +20,10 @@ import project7 from "./images/project_7.jpg";
 import project8 from "./images/project_8.jpg";
 import project9 from "./images/project_9.jpg";
 import project10 from "./images/project_10.jpg";
+import project11 from "./images/project_11.jpg";
+import project12 from "./images/project_12.jpg";
+import project13 from "./images/project_13.jpg";
+import project14 from "./images/project_14.jpg";
 /*Hobbies*/
 import hobbie1 from "./images/hobbie_1.jpg";
 import hobbie2 from "./images/hobbie_2.jpg";
@@ -166,6 +170,58 @@ function App() {
       demo: "https://lucid-darwin-2328b7.netlify.app/",
       code: "https://github.com/ProjectXfire/devChallenges_My_Inputs_Styles",
       image: project10,
+    },
+
+    {
+      name: "Windbnb",
+      tags: ["#REACT"],
+      description:
+        "This project show a list of properties, with theirs descriptions. You can filters properties" +
+        " by location & numbers of guests. In the top there is a search icon that you can click" +
+        " in it and it will open a menu, you can select the location and guests, then click in search." +
+        " If you want to clean the search only click in the button clean." +
+        " To close the menu only click in the cross icon or in the opaque screen that is below.",
+      demo: "https://heuristic-kowalevski-cfddf9.netlify.app/",
+      code: "https://github.com/ProjectXfire/devChallenges_Windbnb",
+      image: project11,
+    },
+    {
+      name: "#todo",
+      tags: ["#REACT"],
+      description:
+        "In this project you can create a list of tasks, checked each task when is completed" +
+        " and a menu to see the pendings and completed tasks. You have the option to remove the task also." +
+        " To save the data I have used the JSON-SERVER (local database). You can test the project" +
+        " without run the server too. The project is responsive." +
+        " That I have learned was how to configure the JSON-SERVER. First create the file .json and finally" +
+        " run the following command ---> npx json-server --watch data/db.json --port 8000, the part 'data/db,json'" +
+        " depend where the file is located and the name.",
+      demo: "https://suspicious-liskov-efa29b.netlify.app/",
+      code: "https://github.com/ProjectXfire/devChallenges_Todo",
+      image: project12,
+    },
+    {
+      name: "Quotes Generator",
+      tags: ["#REACT"],
+      description:
+        "This project generate a random quote using the api 'QuoteGarden'. When you load the page" +
+        " it will show a random quote from any person, there is a buttom on the top of the page to generate" +
+        " another random quote. If you want to see more quotes of the same person, only click in the block" +
+        " where the name appears. This will show a list of quotes. The page is responsive.",
+      demo: "https://adoring-kirch-8f2f82.netlify.app/",
+      code: "https://github.com/ProjectXfire/devChallenges_Quote_Generator",
+      image: project13,
+    },
+    {
+      name: "Country Quiz",
+      tags: ["#REACT"],
+      description:
+        "This project is a simple quiz game, there are only three topics and it is about countries." +
+        " If you answer is correct, you can still playing, but if wrong, the game finish and show the result," +
+        " then you can try play again.",
+      demo: "https://determined-wing-2282d2.netlify.app/",
+      code: "https://github.com/ProjectXfire/devChallenges_Contry_Quiz",
+      image: project14,
     },
   ];
 
