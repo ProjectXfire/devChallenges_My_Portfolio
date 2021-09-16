@@ -175,7 +175,7 @@ function App() {
 
     {
       name: "Windbnb",
-      tags: ["#REACT"],
+      tags: ["#REACT", "#RESPONSIVE"],
       description:
         "This project show a list of properties, with theirs descriptions. You can filters properties" +
         " by location & numbers of guests. In the top there is a search icon that you can click" +
@@ -203,7 +203,7 @@ function App() {
     },
     {
       name: "Quotes Generator",
-      tags: ["#REACT"],
+      tags: ["#REACT", "#RESPONSIVE"],
       description:
         "This project generate a random quote using the api 'QuoteGarden'. When you load the page" +
         " it will show a random quote from any person, there is a buttom on the top of the page to generate" +
@@ -226,7 +226,7 @@ function App() {
     },
     {
       name: "Weathers",
-      tags: ["#REACT", "#NEXTJS"],
+      tags: ["#REACT", "#NEXTJS", "#RESPONSIVE"],
       description:
         "This project show the weather, today and the forecast. When you load the page will ask you to" +
         " accept activate your location, to show the weather of your city. You can search the weather of" +
