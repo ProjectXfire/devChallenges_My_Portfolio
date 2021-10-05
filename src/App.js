@@ -25,6 +25,8 @@ import project12 from "./images/project_12.jpg";
 import project13 from "./images/project_13.jpg";
 import project14 from "./images/project_14.jpg";
 import project15 from "./images/project_15.jpg";
+import project16 from "./images/project_16.jpg";
+import project17 from "./images/project_17.jpg";
 /*Hobbies*/
 import hobbie1 from "./images/hobbie_1.jpg";
 import hobbie2 from "./images/hobbie_2.jpg";
@@ -235,6 +237,27 @@ function App() {
       demo: "https://nostalgic-goodall-52550e.netlify.app/",
       code: "https://github.com/ProjectXfire/devChallenges_Weathers",
       image: project15,
+    },
+    {
+      name: "Crypto App",
+      tags: ["#REACT", "#NEXTJS", "#RESPONSIVE"],
+      description:
+        "This project show a cryptocurrency Batatabit. All you need about this and its plans",
+      demo: "https://unruffled-williams-456887.netlify.app/",
+      code: "https://github.com/ProjectXfire/platzi_Cripto_App",
+      image: project16,
+    },
+    {
+      name: "Upload Images",
+      tags: ["#REACT", "#NEXTJS", "#RESPONSIVE"],
+      description:
+        "This project you can upload any image that you want, the limit of each image is 200kb, if you" +
+        " exceed this limit, the app will show a warning message. You hace 2 way to upload an image," +
+        " the first is using the upload buttom or drag & drop the image in the box, after that will" +
+        " show a loading bar and you will redirect to the main page where you see the image uploaded.",
+      demo: "https://frosty-ritchie-cd7fa3.netlify.app/",
+      code: "https://github.com/ProjectXfire/devChallenges_Upload_Image_FE",
+      image: project17,
     },
   ];
 
